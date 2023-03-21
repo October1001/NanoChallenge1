@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var quest3 = false
     @State private var quest4 = false
     @State private var quest5 = false
+    @State private var quest6 = false
     
     var body: some View {
         VStack {
@@ -128,7 +129,7 @@ struct ContentView: View {
                         .foregroundColor(.black)
                         
                         VStack(alignment: .leading) {
-                            Text("quest 2")
+                            Text("quest 5")
                                 .font(.largeTitle)
                             
                             HStack {
